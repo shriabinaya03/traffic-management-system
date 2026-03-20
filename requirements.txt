@@ -1,0 +1,7 @@
+# requirements.txt
+# Run this command once to install everything:
+#   pip install -r requirements.txt
+
+ultralytics>=8.0.0      # YOLOv8 model (detects car + ambulance)
+opencv-python>=4.8.0    # Webcam + drawing bounding boxes
+pyserial>=3.5           # USB serial to Arduino
